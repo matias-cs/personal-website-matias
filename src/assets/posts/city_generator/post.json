@@ -1,0 +1,68 @@
+{
+  "title": "City Generator",
+  "details": {
+      "Company": "KPF, WeWork",
+      "Time": "2018",
+      "Collaborators": "Jason Danforth, Luc Wilson",
+      "Tags": "Grasshopper, Python, C#, RhinoCommon"
+  },
+  "body": [
+    {
+      "type": "PostText",
+      "text": "City generator is a tool for generating urban designs automatically. This allows for the exploration of thousands of potential design options for a site that can be evaluated by a series of analysis tools."
+    },
+    {
+      "type": "PostImage",
+      "link": "CityGenerator_Model.png",
+      "caption": "Attributes and geometry are passed through the inheritance tree from object to object."
+    },
+    {
+      "type": "PostText",
+      "text": "The model is comprised of object classes that represent different elements in an urban plan. Each object passes particular attributes and geometry to their child objects creating what is a model for procedural generation that is reactive."
+    },
+    {
+      "type": "PostImage",
+      "link": "CityGenerator_ToolPanel.png",
+      "caption": "A tool panel in Grasshopper allows for easy object instantiation and method access."
+    },
+    {
+      "type": "PostText",
+      "text": "While the ultimate goal was to move this system to a cloud computing platform utilizing Rhino Compute, the first step was to build it in the Rhino/Grasshopper environment with RhinoCommon. The result of this process was a grasshopper plugun that pushed custom classes between components."
+    },
+    {
+      "type": "PostImage",
+      "link": "CityGenerator_ToolDescriptions.png",
+      "caption": "Descriptions of each component."
+    },
+    {
+      "type": "PostImage",
+      "link": "CityGenerator_Offset.gif",
+      "caption": "A robust offsetting algorithm ensures quality results regardless of geometry."
+    },
+    {
+      "type": "PostImage",
+      "link": "CityGenerator_Walkshed.gif",
+      "caption": "The street network is a graph that can having routing operations performed on it like walksheds."
+    },
+    {
+      "type": "PostImage",
+      "link": "CityGenerator_Network2Blocks.gif",
+      "caption": "A network graph is iterated over to make blocks, which can then be offset by parent street class."
+    },
+    {
+      "type": "PostImage",
+      "link": "CityGeneratior_BuildingTypes.gif",
+      "caption": "A single building class can represent many building types depending on the parameters used."
+    },
+    {
+      "type": "PostImage",
+      "link": "CityGenerator_WeddingCake.gif",
+      "caption": "Dynamic building types can be deployed across blocks."
+    },
+    {
+      "type": "PostImage",
+      "link": "metrics_diagrams.png",
+      "caption": "These images represent each of the metrics used to analyze urban options."
+    }
+  ]
+}
